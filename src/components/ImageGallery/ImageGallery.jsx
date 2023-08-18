@@ -4,7 +4,7 @@ import Button from '../Button';
 import Modal from '../Modal';
 import s from './ImageGallery.module.css';
 import Loaders from '../Loader';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class ImageGallery extends Component {
   state = {
@@ -66,8 +66,8 @@ class ImageGallery extends Component {
 
 export default ImageGallery;
 
-ImageGallery.propTypes = {
-  increasePage: PropTypes.func,
-  page: PropTypes.number,
-  imageName: PropTypes.string.isRequired,
-};
+// ImageGallery.propTypes = {
+//   increasePage: PropTypes.func,
+//   page: PropTypes.number,
+//   imageName: PropTypes.string.isRequired,
+// };

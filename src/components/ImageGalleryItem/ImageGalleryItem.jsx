@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import s from './ImageGalleryItem.module.css';
 
 const imageGalleryItem = ({ response, openModal }) => {
@@ -20,10 +20,10 @@ const imageGalleryItem = ({ response, openModal }) => {
 };
 export default imageGalleryItem;
 
-imageGalleryItem.propTypes = {
-  openModal: PropTypes.func,
-  id: PropTypes.string,
-  webformatURL: PropTypes.string,
-  tags: PropTypes.string,
-  largeImageURL: PropTypes.string,
-};
+// imageGalleryItem.propTypes = {
+//   openModal: PropTypes.func,
+//   id: PropTypes.string,
+//   webformatURL: PropTypes.string,
+//   tags: PropTypes.string,
+//   largeImageURL: PropTypes.string,
+// };
